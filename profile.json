@@ -1,0 +1,16 @@
+{
+  "@context": [
+    "https://w3id.org/openbadges/v2",
+    "https://w3id.org/blockcerts/v3"
+  ],
+  "id": "https://harukikondo.github.io/profile.json",
+  "type": "Profile",
+  "name": "TestHK",
+  "url": "https://www.test.com",
+  "email": "blockcerts@gmail.com",
+  "publicKey": [
+    {
+      "id": "ecdsa-koblitz-pubkey:0x034f66d49A175438AD7Ec0111CcA18fce1A39Fa6"
+    }
+  ]
+}
