@@ -1,0 +1,23 @@
+{
+  "id": "did:web:did.dev.vc.xyz",
+  "verificationMethod": [
+    {
+      "id": "#key-1",
+      "controller": "did:web:nft-vc.example.com",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "publicKeyJwk": {
+          "kty":"EC",
+          "crv":"K-256",
+          "x":"R4cNjhPTRtE1mKim_zEAOI_f6DmkHu36IWknJQYjjns",
+          "y":"i4b5EvyBI6pT2naAWp3IeqxAOEnE_SxfFv1rzd71GPk"
+      }
+    }
+  ],
+  "service": [
+    {
+      "id": "#service-1",
+      "type": "IssuerProfile",
+      "serviceEndpoint": "https://nft-vc.example.com/blockcerts.json"
+    }
+  ]
+}
