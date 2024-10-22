@@ -1,5 +1,5 @@
 {
-  "id": "did:web:did.dev.vc.xyz",
+  "id": "did:web:harukikondo.github.io",
   "verificationMethod": [
     {
       "id": "#key-1",
@@ -15,9 +15,9 @@
   ],
   "service": [
     {
-      "id": "#service-1",
+      "id": "#issuer-profile",
       "type": "IssuerProfile",
-      "serviceEndpoint": "https://harukikondo.github.io/SampleDID/blockcerts.json"
+      "serviceEndpoint": "https://harukikondo.github.io/SampleDID/profile.json"
     }
   ]
 }
