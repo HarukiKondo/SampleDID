@@ -1,0 +1,18 @@
+{
+    "@context": [
+      "https://w3id.org/openbadges/v2",
+      "https://w3id.org/blockcerts/3.0"
+    ],
+    "type": "Profile",
+    "id": "https://harukikondo.github.io/SampleDID/blockcerts.json",
+    "name": "vc.example, Inc.",
+    "url": "https://harukikondo.github.io/SampleDID/",
+    "publicKey": [
+      {
+        "id": "ecdsa-koblitz-pubkey:0x034f66d49A175438AD7Ec0111CcA18fce1A39Fa6",
+        "created": "2024-10-22T10:00:00.000000+00:00"
+      }
+    ],
+    "revocationList": "https://harukikondo.github.io/SampleDID/blockcerts_revocation_list.json",
+    "image": ""
+}
