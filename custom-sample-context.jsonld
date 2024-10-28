@@ -1,0 +1,8 @@
+{
+  "@context": {
+    "sha256": {
+      "@id": "https://schema.org/sha256",
+      "@type": "https://schema.org/Text"
+    }
+  }
+}
